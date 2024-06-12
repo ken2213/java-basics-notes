@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Enter your name"-->
+<!--        android:hint="Enter your name"-->
+<!--        android:inputType="text"-->
+
+<!--        android:textColor="#5D7BA4"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textSize="32sp"-->
+
+<!--        android:maxLength="120"-->
+<!--    />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myBtn"
+        android:text="Click Me!"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+        android:padding="30dp"
+        android:layout_margin="40dp"
+        android:clickable="true"
+        android:enabled="true"
+    />
+
+<!--    <TextView-->
+<!--        android:id="@+id/myTextView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:text="Hello My Friends"-->
+<!--        android:textColor="#2196F3"-->
+<!--        android:textSize="32sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:gravity="center"-->
+
+<!--        android:typeface="serif"-->
+<!--        android:textAllCaps="true"-->
+
+<!--        android:padding="20dp"-->
+<!--        android:layout_margin="20dp"-->
+
+<!--        android:background="#34EE00"-->
+<!--        android:inputType="text"-->
+<!--    />-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
